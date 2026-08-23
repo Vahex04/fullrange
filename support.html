@@ -1,37 +1,69 @@
-<!DOCTYPE html>
-<html>
-<head><title>Support page - Full Range</title></head>
-<body style="font-family: sans-serif; max-width: 700px; margin: 40px auto; line-height: 1.6;">
-<pre style="white-space: pre-wrap; font-family: inherit;">
-Full Range — Support
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full Range Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { color:#171717; background:#fff; font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+         margin:0 auto; max-width:760px; padding:32px 20px 64px; }
+  h1 { line-height:1.15; margin-bottom:.25rem; }
+  h2 { font-size:1.15rem; margin-top:2rem; }
+  .muted { color:#666; }
+  .contact { background:#f4f4f2; border-radius:12px; padding:16px 18px; margin:20px 0 28px; }
+  a { color:#b8231f; }
+  code { background:#f2f2ef; border-radius:5px; padding:2px 6px; font-size:.9em; }
+  @media (prefers-color-scheme: dark) {
+    body { color:#f2f3f4; background:#17181a; }
+    .muted { color:#9aa0a6; }
+    .contact { background:#26282c; }
+    code { background:#26282c; }
+    a { color:#f08a84; }
+  }
+</style>
+</head>
+<body>
+  <h1>Full Range Support</h1>
+  <p class="muted">Questions, bugs, and feature requests.</p>
 
-Need help, found a bug, or want to suggest a feature?
-Email: freerangegymapp@gmail.com
+  <div class="contact">
+    <strong>Email:</strong> <a href="mailto:freerangegymapp@gmail.com">freerangegymapp@gmail.com</a><br>
+    <span class="muted">Replies usually arrive within a few days.</span>
+  </div>
 
-I usually reply within a few days. Thank you for the continued support!
+  <h2>How do I change my training schedule?</h2>
+  <p>Open <strong>Settings → Edit schedule</strong>. You can set the rotation length anywhere from 1 to 28 days, and add, rename, reorder, or delete activities on any day. Changing the schedule never deletes logged history.</p>
 
-FREQUENTLY ASKED
+  <h2>How do I add a one-off activity?</h2>
+  <p>On the <strong>Tracker</strong> tab, use <strong>Add</strong> and choose to add it to that day only. One-off activities can also track Hard / Medium / Light intensity — switch that on with the toggle in the Add sheet, or later by editing the activity.</p>
 
-How do I change my training rotation?
-Settings → Edit rotation. You can change the length (1 to 28 days), add
-or remove activities on any day, rename them, and reorder them.
+  <h2>Where is my data stored?</h2>
+  <p>On your iPhone only. Full Range has no account, no server, and no automatic cloud sync. Nothing is transmitted to the developer.</p>
 
-Where is my data stored?
-On your iPhone. If you turn on iCloud sync in Settings, it is also
-copied to your own private iCloud account. It is never sent anywhere
-else.
+  <h2>How do I back up my data, or move to a new iPhone?</h2>
+  <p>Go to <strong>Settings → Data → Create Backup</strong>. Full Range writes a readable JSON file and lets you choose where to save it in the Files app — including iCloud Drive, if you want it off the device. On the new iPhone, install Full Range and use <strong>Settings → Data → Restore from backup</strong>, then pick that file.</p>
+  <p>For a plain-text copy you can read or print, use <strong>Export readable report</strong> instead. That one is for reading, not for restoring.</p>
 
-How do I back up my data?
-Turn on iCloud sync in Settings. You can also export everything as plain
-text from Settings → Data → Export my data.
+  <h2>Does Full Range sync between my devices automatically?</h2>
+  <p>No. There is no automatic sync of any kind. Moving data between devices is done deliberately with Create Backup and Restore from backup, as above.</p>
 
-Do donations unlock anything?
-No. Every feature is free and always will be. Donations are optional
-support only. I am the sole developer on this app and I work hard to provide a quality free app to help people in the gym! 
+  <h2>How does Apple Health work?</h2>
+  <p>Health is optional and off until you turn it on in <strong>Settings → Apple Health</strong>. When enabled, Full Range reads weight, body-fat percentage, and workouts to fill in blank entries, and can check off clearly matching activities for you. It never overwrites a value you typed, and it never writes anything to Apple Health.</p>
 
-How do I get a refund for a donation?
-Refunds are handled by Apple, not by the developer. Visit
-reportaproblem.apple.com.
-</pre>
+  <h2>My reminder isn't arriving</h2>
+  <p>Check that notifications are allowed in <strong>iOS Settings → Notifications → Full Range</strong>, then turn the reminder off and on again in <strong>Settings → Reminder</strong>. If you have rest-day skipping enabled, no reminder is scheduled on a rest day.</p>
+
+  <h2>Do tips unlock anything?</h2>
+  <p>No. Every feature is free and stays free. The Tip Jar is optional support only, and it unlocks nothing.</p>
+
+  <h2>How do I get a refund for a tip?</h2>
+  <p>Refunds are handled by Apple, not by the developer. Go to <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h2>How do I delete my data?</h2>
+  <p><strong>Settings → Data → Erase training history</strong> removes your logged entries after two confirmations and keeps your schedule and preferences. Deleting the app removes everything it stored on the device.</p>
+
+  <h2>Privacy</h2>
+  <p>The full policy is at <a href="privacy.html">privacy.html</a>, and inside the app at <strong>Settings → Privacy policy</strong>.</p>
 </body>
 </html>
